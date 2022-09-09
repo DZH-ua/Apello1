@@ -559,9 +559,14 @@ body {
 
 .approved {
   background-color: var(--secondary-background);
+}
+
+.approved-wrapper {
+  width: 1440px;
   padding-top: 150px;
   padding-bottom: 196px;
   padding-left: 245px;
+  margin: 0 auto;
 }
 
 .approved-container {
