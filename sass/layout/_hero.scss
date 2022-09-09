@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(/Apello/img/hero/hero-bgr.jpg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    background-color: var(--third-background);
+    padding-top: 240px;
+    padding-bottom: 270px;
+    margin: 0 auto; 
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 2.73;
+    color: var(--third-color);
+    margin-bottom: 35px;
+    width: 411px;
+}

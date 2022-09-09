@@ -1,0 +1,35 @@
+.details-btn {
+    padding: 15px 37px;
+    background: var( --hover-color);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    color: var(--third-color);
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--hover-color-btn);        
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.details-btn--identify {
+    display: block;
+    padding: 15px 49px;
+    margin: 0 auto;
+}
+
+.details-btn--works {
+    display: block;
+    padding: 15px 50px;
+    margin: 0 auto;
+}
+
+.details-btn--requeust {
+    display: block;
+    padding: 18px 48px;
+    margin: 0 auto;
+}

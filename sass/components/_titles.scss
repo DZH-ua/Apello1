@@ -1,0 +1,20 @@
+.title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.19;
+    color: var(--third-color);
+    margin-bottom: 52px;
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 1.275;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 35px;
+}
+
+.sub-title--white {
+    color: var(--third-color);
+}

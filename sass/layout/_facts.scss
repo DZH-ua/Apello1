@@ -1,0 +1,27 @@
+.facts {
+    background-color: var(--third-background); 
+    padding-top: 150px;
+    padding-bottom: 470px;
+}
+
+.fact__container {
+    width: 1190px;
+    margin: 0 auto;     
+}
+
+
+.fact-list {
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+
+.fact-list__item {
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-basis: calc((100% - 100px) / 4);    
+}
+
+.fact-list__title {
+    margin-bottom: 15px;
+}

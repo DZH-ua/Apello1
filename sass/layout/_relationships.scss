@@ -1,0 +1,27 @@
+.relation_description {
+    width: 698px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.relation-list {
+    display: flex;    
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 50px 80px;
+    background-color: var(--secondary-background);
+    gap: 100px;
+}
+
+.relation-list__item {
+    flex-basis: calc((100% - 300px) / 4);
+    margin: auto 0;
+}
+
+.relation-list__img {
+    margin: 0 auto;
+}
+
+.relation {
+    padding-bottom: 60px;
+}

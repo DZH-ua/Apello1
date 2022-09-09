@@ -1,0 +1,28 @@
+.apply {
+    padding-top: 150px;
+}
+
+.apply-list {
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+.apply-list__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    color: var(--hover-color);
+    padding: 16px 42px;
+    border: 2px solid var(--after-background);   
+    border-radius: 30px;
+    display: block;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus-within {
+        border-color: var(--hover-color);        
+    }
+}

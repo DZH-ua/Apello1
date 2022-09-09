@@ -1,0 +1,28 @@
+.approved {
+    background-color: var(--secondary-background);
+    padding-top: 150px;
+    padding-bottom: 196px;
+    padding-left: 245px;
+}
+
+.approved-container {
+    width: 519px;
+}
+
+.approved__sub-title {
+    text-align: start;
+}
+
+.approved__description-card {
+    width: 469px;
+    text-align: start;
+    margin-bottom: 45px;
+}
+
+.approved-list {
+    display: flex;
+}
+
+.approved-list__item:not(:last-child) {
+    margin-right: 30px;
+}
